@@ -20,7 +20,7 @@ Let's say we have
     
 but we forgot to first make her a vampyre ~ (half). We could break up the dot chain into
 
-    MLady mLady = new GameObject().AddComponent<StarElf>();
+    StarElf mLady = new GameObject().AddComponent<StarElf>();
     mLady.vampyre = 0.5f;
     mLady.BlessedBe();
     
