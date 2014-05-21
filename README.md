@@ -39,7 +39,7 @@ We could put a Debug.Log in a tap like this
 But this is so common that I made it its own method
 
     earth.country.state.city.street.Log().house.husband.Spank();
-    // we find out that we've been accidentally spanking the old gentleman on the next block over's husband.
+    // we find out we've accidentally been spanking the old gentleman on the next block over's husband.
 
 S T.AndAnd(T => S)
 ------------------
