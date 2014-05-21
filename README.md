@@ -18,7 +18,7 @@ Let's say we have
 
     new GameObject().AddComponent<StarElf>().BlessedBe();
     
-but we forgot to first make her a vampyre ~ (half). We could break up the dot chain into
+but we forgot to first make her a ~vampyre~ (half). We could break up the dot chain into
 
     StarElf mLady = new GameObject().AddComponent<StarElf>();
     mLady.vampyre = 0.5f;
