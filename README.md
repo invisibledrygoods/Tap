@@ -5,6 +5,10 @@ Convenient combinator-ish things and useful not-very-monadic extension methods.
 
 I uploaded it quickly so it might need a better name, and some of the methods might need better names.
 
+These are all extension methods on a generic type so they can be used anywhere, just remember to put
+
+    using Tap;
+
 T T.Tap(T => void)
 ------------------
 
