@@ -22,6 +22,14 @@ namespace Tap {
             return tap;
         }
 
+        public static void AndAnd<T>(this T tap, Action<T> act)
+        {
+            if (tap != null)
+            {
+                act(tap);
+            }
+        }
+
         public static S AndAnd<T, S>(this T tap, Func<T, S> func)
         {
             if (tap == null || tap is UnityEngine.Object && !(tap as UnityEngine.Object))
